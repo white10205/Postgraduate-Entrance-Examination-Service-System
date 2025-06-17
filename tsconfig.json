@@ -1,0 +1,21 @@
+{
+  /* "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ], */
+  "compilerOptions": {
+    "target": "ES5", // 目标环境是 ES5
+    "lib": ["ES2016", "DOM"], // 添加 ES2015 以支持 Promise
+    "baseUrl": "./", // 这里需要配置
+    "paths": {
+      "@/*": ["./src/*"] // 这里需要配置
+    },
+    "types": ["vite/client", "vue"], // 添加 "vue" 类型支持
+    "esModuleInterop": true
+  },
+
+  // include也需要配置以下：
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "auto-imports.d.ts"],
+  "exclude": ["node_modules"]
+}

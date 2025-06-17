@@ -1,0 +1,35 @@
+{
+  "name": "front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "ali-oss": "^6.22.0",
+    "axios": "^1.8.4",
+    "compressorjs": "^1.2.1",
+    "dayjs": "^1.11.13",
+    "element-plus": "^2.9.5",
+    "element-tiptap": "^2.2.1",
+    "vue": "^3.5.13",
+    "vue-router": "4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "sass": "^1.85.1",
+    "typescript": "~5.7.2",
+    "unplugin-auto-import": "^19.1.1",
+    "unplugin-vue-components": "^28.4.1",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4"
+  }
+}
